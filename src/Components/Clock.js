@@ -32,11 +32,11 @@ const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
   );
 };
 
-//Clock.defaultProps = {
-  //timerDays: 10,
-  //timerHours: 10,
-  //timerMinutes: 10,
-  //timerSeconds: 10,
-//};
+Clock.defaultProps = {
+  timerDays: 10,
+  timerHours: 10,
+  timerMinutes: 10,
+  timerSeconds: 10,
+};
 
 export default Clock;
